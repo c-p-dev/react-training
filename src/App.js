@@ -6,7 +6,8 @@ import Clock from './component/clock/Clock';
 import List from './component/list/list';
 import Anagram from './component/anagram/anagram';
 import School from './component/school/School';
-
+import Lift from './component/lift/Lift';
+import Registration from './component/react-registration/Registration';
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,11 @@ function App() {
         {/* <Clock /> */}
         {/* <List /> */}
         {/* <Anagram/> */}
-        <School/>
+        {/* <School/> */}
+        {/* <Lift/> */}
+        <React.StrictMode>
+            <Registration/>
+        </React.StrictMode>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
