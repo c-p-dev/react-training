@@ -16,10 +16,10 @@ class Finder extends React.Component {
     render() {
         return (
             <div>
-                FullName: <input value={this.props.info.fullName} onChange={this.handleFullNameChange} />
-                Age: <input value={this.props.info.age} onChange={this.handleAgeChange} />
-                Needs Aircon: <input type="checkbox" value={this.props.info.needsAircon} onChange={this.handleAirconChange} />
-                Parential Control: <input type="checkbox" value={this.props.info.parentControl} onChange={this.handleParentControl} />
+                FullName: <input value={this.props.info.fullName} onChange={this.handleFullNameChange} /> <br/>
+                Age: <input value={this.props.info.age} onChange={this.handleAgeChange} /><br/>
+                Needs Aircon: <input type="checkbox" value={this.props.info.needsAircon} onChange={this.handleAirconChange} /><br/>
+                Parential Control: <input type="checkbox" value={this.props.info.parentControl} onChange={this.handleParentControl} /><br/>
             </div>
         )
     }

@@ -8,6 +8,11 @@ import Anagram from './component/anagram/anagram';
 import School from './component/school/School';
 import Lift from './component/lift/Lift';
 import Registration from './component/react-registration/Registration';
+import Ajax from './component/ajax/Ajax';
+import Mother from './component/containment/mother'
+import Home from './component/router/Home';
+import RouterTest from './component/router/Router';
+import Router from './component/router/Router';
 function App() {
   return (
     <div className="App">
@@ -17,9 +22,13 @@ function App() {
         {/* <Anagram/> */}
         {/* <School/> */}
         {/* <Lift/> */}
-        <React.StrictMode>
+        {/* <React.StrictMode>
             <Registration/>
-        </React.StrictMode>
+        </React.StrictMode> */}
+        {/* <Ajax/> */}
+        {/* <Mother /> */}
+        {/* <Home /> */}
+        <Router/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
